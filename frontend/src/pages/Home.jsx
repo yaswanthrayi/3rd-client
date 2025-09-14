@@ -288,7 +288,7 @@ const Home = () => {
                    onClick={() => handleProductClick(heroProduct.id)}>
                 <div className="relative">
                   <img
-                    src={heroProduct.hero_image_url}
+                    src={`${heroProduct.hero_image_url}&quality=80&format=webp`}
                     alt={heroProduct.title}
                     loading="eager"
                     width="500"
